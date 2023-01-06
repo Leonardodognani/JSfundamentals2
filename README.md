@@ -4,4 +4,5 @@
 
 -Course from Udemy, complete JS;
 -Basic study, learning and practice;
+-Basic Function;
 -Code Challenges;
