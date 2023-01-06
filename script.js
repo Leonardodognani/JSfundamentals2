@@ -13,6 +13,7 @@ if (hasDriversLicense) console.log("I can drive :D");
 
 //FUNCTIONS
 
+/*
 function logger() {
   console.log("My name is Leo");
 }
@@ -37,3 +38,25 @@ console.log(appleOrangeJuice);
 
 const num = Number("23");
 console.log(num);
+*/
+
+//FUNCTION DECLARATION vs EXPRESSIONS
+
+//function delaration
+const age1 = calcAge1(1985); //we can call the function before the function block and still work.
+
+function calcAge1(birthYear) {
+  // const age = 2023 - birthYear;
+  //return age (dont needed, instead, use this:)
+  return 2023 - birthYear;
+}
+
+//function expression
+// we cannot call the function before in expressions.
+const calcAge2 = function (birthYear) {
+  return 2023 - birthYear;
+};
+
+const age2 = calcAge2(1985);
+
+console.log(age1, age2);
