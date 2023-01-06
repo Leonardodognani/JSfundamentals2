@@ -6,4 +6,5 @@
 -Basic study, learning and practice;
 -Basic Function;
 -Function declaration vs function expressions;
+-Arrow functions;
 -Code Challenges;

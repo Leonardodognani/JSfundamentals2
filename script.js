@@ -42,6 +42,7 @@ console.log(num);
 
 //FUNCTION DECLARATION vs EXPRESSIONS
 
+/*
 //function delaration
 const age1 = calcAge1(1985); //we can call the function before the function block and still work.
 
@@ -60,3 +61,22 @@ const calcAge2 = function (birthYear) {
 const age2 = calcAge2(1985);
 
 console.log(age1, age2);
+*/
+
+//ARROW FUNCTION
+
+const calcAge3 = (birthYear) => 2023 - birthYear;
+
+const age3 = calcAge3(1985);
+console.log(age3);
+
+const yearUntilRetirement = (birthYear, firstName) => {
+  const age = 2023 - birthYear;
+  const retirement = 65 - age;
+  //return retirement;
+  return `${firstName} retires in ${retirement} years`;
+};
+
+console.log(yearUntilRetirement(1985, "Leo"));
+console.log(yearUntilRetirement(1989, "Clara"));
+console.log(yearUntilRetirement(1991, "Dani"));
