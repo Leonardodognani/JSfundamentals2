@@ -7,4 +7,4 @@
 -Basic Function;
 -Function declaration vs function expressions;
 -Arrow functions;
--Code Challenges;
+-Function calling other function;
