@@ -8,3 +8,4 @@
 -Function declaration vs function expressions;
 -Arrow functions;
 -Function calling other function;
+-Reviewing function;
