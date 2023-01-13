@@ -104,6 +104,7 @@ console.log(fruitProcessor(2, 3));
 
 //REVIEWING FUNCTION
 
+/*
 const calcAge = function (birthYear) {
   return 2023 - birthYear;
 };
@@ -123,3 +124,26 @@ const yearUntilRetirement = function (birthYear, firstName) {
 
 console.log(yearUntilRetirement(1985, "Leo"));
 console.log(yearUntilRetirement(1950, "Leo"));
+*/
+
+// INTRODUCTION TO ARRAYS
+
+const frined1 = "Leo";
+const frined2 = "Ramon";
+const frined3 = "Pedro";
+
+// INSTEAD:
+
+const friends = ["Michael", "Steven", "Peter"];
+
+console.log(friends);
+
+const years = new Array(1991, 1985, 2008, 2020);
+
+console.log(years);
+
+console.log(friends[0]);
+console.log(friends[2]);
+
+console.log(friends.length);
+console.log(friends[friends.length - 1]);

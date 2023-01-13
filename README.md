@@ -10,3 +10,4 @@
 -Function calling other function;
 -Reviewing function;
 -Code challenge 1;
+-Introduction to Arrays
